@@ -1,15 +1,14 @@
+var config = {
+  apiKey: "AIzaSyAwJfwl2KJuksiJ9iKlOqLjEd8JcezL3io",
+  authDomain: "train-c57cb.firebaseapp.com",
+  databaseURL: "https://train-c57cb.firebaseio.com",
+  projectId: "train-c57cb",
+  storageBucket: "",
+  messagingSenderId: "572203931988",
+  appId: "1:572203931988:web:58f54da3d8b9b964acd0c1"
+};
 
-  var firebaseConfig = {
-    apiKey: "AIzaSyDkXjQuYABIHlE3bjC-9WlWocoQt95S4Jg",
-    authDomain: "bcboot2019.firebaseapp.com",
-    databaseURL: "https://bcboot2019.firebaseio.com",
-    projectId: "bcboot2019",
-    storageBucket: "",
-    messagingSenderId: "883044454432",
-    appId: "1:883044454432:web:b4e0edd828731ac008ec45"
-  };
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+firebase.initializeApp(config);
 
 var database = firebase.database();
 
